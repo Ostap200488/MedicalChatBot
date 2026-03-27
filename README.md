@@ -1,9 +1,3 @@
-# Build-a-Complete-Medical-Chatbot-with-LLMs-LangChain-Pinecone-
-
-A medical chatbot project built with **Python**, **LangChain**, **Pinecone**, **Flask**, and **OpenAI**.  
-This application uses LLMs and vector search to provide intelligent medical-related responses.
-
-## How to Run
 STEP 01- Create a conda environment after opening the repository
 
 conda create -n medibot python=3.10 -y
