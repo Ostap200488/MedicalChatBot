@@ -4,26 +4,28 @@ A medical chatbot project built with **Python**, **LangChain**, **Pinecone**, **
 This application uses LLMs and vector search to provide intelligent medical-related responses.
 
 ## How to Run
+STEP 01- Create a conda environment after opening the repository
 
-1. Create a Conda environment
 conda create -n medibot python=3.10 -y
 conda activate medibot
+STEP 02- install the requirements
 
-2. Install the requirements
 pip install -r requirements.txt
+Create a .env file in the root directory and add your Pinecone & openai credentials as follows:
 
-3. Create a .env file
-Create a .env file in the root directory and add your credentials:
-PINECONE_API_KEY="your_pinecone_api_key"
-OPENAI_API_KEY="your_openai_api_key"
-
-4. Store embeddings in Pinecone
-Run the following command to create and store embeddings in Pinecone:
+PINECONE_API_KEY = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+OPENAI_API_KEY = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+# run the following command to store embeddings to pinecone
 python store_index.py
-
-5. Start the application
+# Finally run the following command
 python app.py
+Now,
 
-6. Open in browser
-Once the app is running, open:
-http://localhost:5000
+open up localhost:
+Techstack Used:
+
+Python
+LangChain
+Flask
+GPT
+Pinecone
