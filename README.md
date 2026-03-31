@@ -1,8 +1,6 @@
 An AI-powered medical chatbot application built using modern LLM technologies.
 This project demonstrates how large language models can be integrated into real-world applications to provide intelligent, context-aware responses based on medical data.
 It combines LangChain, vector embeddings, and a Flask backend to simulate a real healthcare assistant experience.
- GitHub Repository:
-https://github.com/entbappy/Build-a-Complete-Medical-Chatbot-with-LLMs-LangChain-Pinecone-Flask-AWS.git
  # Key Features
  AI-powered question answering using LLMs
  Context-aware responses using vector embeddings
